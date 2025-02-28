@@ -17,7 +17,7 @@ from streamlit_extras.switch_page_button import switch_page
 # relative_path = "relevate-dev-403605-3d2cdf274874.json"
 
 # Get the absolute path dynamically
-credentials_path = os.path.join(os.getcwd(), relative_path)
+# credentials_path = os.path.join(os.getcwd(), relative_path)
 # os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "\servicecert-relevate-dev-403605-991ce9234fb2.json"
 # os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = credentials_path
 
