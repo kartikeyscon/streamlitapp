@@ -24,10 +24,13 @@ from streamlit_extras.switch_page_button import switch_page
 # print(os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"))
 
 # Load secrets from Streamlit cloud
-gcp_credentials = st.secrets["gcp_service_account"]
+# gcp_credentials = st.secrets["gcp_service_account"]
 
 # Convert secrets to JSON format
+gcp_credentials = dict(st.secrets["gcp_service_account"])  # Convert to a standard dictionary
 service_account_json = json.dumps(gcp_credentials)
+
+# service_account_json = json.dumps(gcp_credentials)
 
 # Set up authentication
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/tmp/service_account.json"
