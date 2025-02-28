@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "relevate-dev-403605",
+  "private_key_id": "3d2cdf2748749339770e28ce17e3e4af7a7c35df",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDGDq9s8cJ8dr4y\nOGsqdm0XOL9cn+2saqfS/4K1EUcYug3q4ydKogsXtAsJlbzGvMDBm6zTTmaIl4x8\nKYCC/8zVNOQsezs+WlGz9lOzz+tQFJ5EI0BvxzhGDvsNfyDHDmErR76feZ17DxhT\n5y6KFN3EoQFFNWglR3hdKOZ0LdOuQFTGIpOgTVFkLkMIBGZzQqaaL0El60ceqJ2t\nj/LbAYomulXcRPKnEULF/gBL1QtCaG5Kmtm6RHsWAELLv5hNj6b9l9YuI067RS9I\nEQkwmWG6dvTGdHbmFjH8vQOkfRyPkZgNTDqjTFvlwYukUXa94Sw+0DRTGZBYwwiJ\njVDFVwtvAgMBAAECggEAQzeErfK20Mrz7dNb+4NJrtHhkCvu288uudthntYITQoH\n4ynIkfnAzgCaplwdP02cFZkh5Gz9O2pDkXf8V3k9KTbUIYyJJLY+eFcnPSVZdUoq\nFHHqUoVIQe6foYr9stDchXXJ6hG6MqOC3CbfkplWUn9aEQT5HX3OCb/xxogvCTnO\nsg7nQL9CUmu6Pwcyd1cahR7sNu6wVxD9HSBWuXDgYOcOninBZOKe2zSFI1D3DOzz\ncCtT2vujEW0f0662tNPgOrAu4dauXF8wVmB0zA9hdCT/R+YCv1JDh/fo6zPo75Ac\n6yuFbccVVj4E37xkZOT6JzYV0CHHX/YJ4iJLXykCUQKBgQD0UBveGXMKAdG9EzFp\ncisPC+eRR5wjFtdOoDKOoWnjf+v378rcJz5rE0h/rnb1OVUoO7g98U8GxAu3JUAm\nuzpbzJjc4WgD2NY4l+c0MERJxmDe4dE2mVCp3J8upcq+cdD3BXbcHAnAbF1/kly3\nsmwYe4t2bem3DuzOGi/GH77WkwKBgQDPiB/JBz/lzuXZmb4L3mI5Dt+Zs8gd3Tda\nK1evM7oc/1h9Tu1UI2CH2GwQ8u4LvzqKb6xltWXnc5WlCBgmjmnE19BLkjuILGCX\nXozTUJ9WS7djzcmYIIQ3L6lAQMa3HaAS6pf4JUiCsJ89kJ4rG0dq3c6ptGPmzcqa\n7kr+WWVFNQKBgQCc0PayPr+agsRvimxC9Kcyxz9h/wb3dufIbgdFidH/1tJNmLsr\nSH1GGWCFpCRzDtPcOUjvaX6CJ0Al1GEy+yZgWhkcXgp3vazzMn2TABA1EoKHTYcO\ndqZSAWyjcoOKbl/kzrsWWWDhBC2XfwjIWFwN8u73m2FSwN+7Aw/7KdFCxQKBgQCg\nrAAH0KAM2MElVh1H7RVYnYZJ5mGxlVpMajAJyd92oc6tvVSLBpSut8T63kmkOJon\nIcx0Nhu+NMOPsJOaDjofFwMB7yY+CDWEG8Sluc6Sri4+i81fBRW38CN2RnBSxxHu\nc0fS63KXFA1FSdjbANSrDSz6QFn0EDGi/4h6IVYBXQKBgDn77u8ll/0U0azLF4Vb\nsS2vaibtCc/bxCFcLrV8Q6qH7SdICVdx86JijVkAJHyb1I3/4ayJlqt99nDf7S1a\nMpgy239tCs9Ve0It4HtN11Y84MSliU0hZbJN7AJ5W9/XgJqohplWd9eb8p6W6xIS\nxKJFna4eu2F2YlIfkso9zeqP\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcs-bucket-access@relevate-dev-403605.iam.gserviceaccount.com",
+  "client_id": "103577964392406075501",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcs-bucket-access%40relevate-dev-403605.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
