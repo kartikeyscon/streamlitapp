@@ -14,14 +14,30 @@ from streamlit_extras.switch_page_button import switch_page
 
 # Define the relative path to the service account file
 
-relative_path = "relevate-dev-403605-3d2cdf274874.json"
+# relative_path = "relevate-dev-403605-3d2cdf274874.json"
 
 # Get the absolute path dynamically
 credentials_path = os.path.join(os.getcwd(), relative_path)
 # os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "\servicecert-relevate-dev-403605-991ce9234fb2.json"
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = credentials_path
+# os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = credentials_path
 
-print(os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"))
+# print(os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"))
+
+# Load secrets from Streamlit cloud
+gcp_credentials = st.secrets["gcp_service_account"]
+
+# Convert secrets to JSON format
+service_account_json = json.dumps(gcp_credentials)
+
+# Set up authentication
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/tmp/service_account.json"
+
+# Save JSON file temporarily (Streamlit Cloud does not allow direct env vars for GCP)
+with open("/tmp/service_account.json", "w") as f:
+    f.write(service_account_json)
+
+# Initialize Google Cloud Storage client
+client = storage.Client()
 
 # GCS bucket name
 BUCKET_NAME = "relevate-dev-403605-list"
@@ -36,7 +52,7 @@ uuid = "99570796-f508-11ef-972f-42004e494300"
 fileName = f"gs://{BUCKET_NAME}/{file_path}"
 
 def upload_to_gcs(bucket_name, file):
-    client = storage.Client()
+    # client = storage.Client()
     bucket = client.bucket(bucket_name)
     blob = bucket.blob(file_path + file.name)
     blob.upload_from_file(file, content_type="text/csv")
