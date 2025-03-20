@@ -12,7 +12,7 @@ st.markdown("**Bold text**")
 
 
 # Sliders & Progress
-value = st.slider("Select a value", 0, 100, 50)
+value = st.slider("Select a value", 0, 100, 50,25)
 st.write("Slider Value:", value)
 
 
